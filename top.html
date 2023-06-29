@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+          background-color: rgb(255, 255, 255);
+          color: rgb(1, 10, 19);
+        }
+    
+        .container {
+          position: absolute;
+          top: 10px;
+          width: 98%;
+          display: flex;
+          justify-content: right;
+          font-family: cursive;
+        }
+    
+        .container a {
+          text-align: right;
+          font-size: 20px;
+          color: rgb(12, 0, 0);
+          text-decoration: none;
+          margin:10px 30px; /* Add margin for spacing */
+          padding: 5px 5px; 
+        }
+        a:hover{
+            background-color: rgb(190, 190, 190);
+            color: rgb(0, 0, 0);
+            border-radius: 50%;
+        }
+        p {
+            display: inline-block; /* Add this to make the paragraph inline */
+            margin-left: 10px; /* Add margin to create spacing between image and paragraph */
+            font-size: 25px;
+
+        }
+
+        img {
+            border-image: round;
+            border-radius: 50%;
+            border-color: black;
+            width: 45px;
+            height: 45px;
+            vertical-align: middle; /* Add this to vertically align the image with the text */
+        }
+    </style>
+</head>
+<body>
+    &nbsp;&nbsp;
+    <img src="002.jpg">&nbsp;&nbsp;&nbsp;
+    <p>Shubhankar Dutta</p>
+    <div class="container">
+        <a href="home.html" target="_parent">Home</a>
+        <a href="Experienc.html" target="bottom">Experience</a>
+        <a href="Education.html" target="bottom">Education</a>
+        <a href="About.html" target="bottom">About</a>
+    </div>
+</body>
+</html>
